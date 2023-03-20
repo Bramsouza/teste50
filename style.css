@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    
+}
+
+/*SEÇÃO 1*/
+
+.perfil{
+    border-radius: 50%;
+    margin-bottom:-1%;
+    width: 30%;
+    height: 60%;
+}
+
+
+#bemVindo{
+    position: absolute; /*com o absolute consigo posicionar o elemento em qualquer área da página.*/
+    bottom: 0;/*O bottom define a posição referente ao absolute, fixed ou relative*/
+    background: linear-gradient(#e4bac2 0%, #de3456 100%);
+    display: table; /*display table faz com que o elemento tenha as características de uma tabela.*/
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;/*especifica o peso ou a intensidade da fonte*/
+}
+
+#nome{
+    font-size:50px;
+    font-family: cursive;
+}
+
+h2{
+    font-size: 30px;
+    font-weight:300 ;
+}
+
+/*SEÇÃO 2*/
+
+#bio{
+    font-family: cursive;
+    padding: 50px;/*margem do texto de ambos os lados cima e baixo*/
+}
+
+.linha{
+    background-color:#de3456;
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;/*o auto está retornando para a posição 0 (inicial)*/
+
+}
+
+/*SEÇÃO 1*/
+.parallax-inner{/*‘parallax-inner’ sobrepõe na seção*/
+    display: table-cell;/*exibição como tabela e divisão interna paralela como célula*/
+    vertical-align: middle;/*alinhamento vertical no meio*/
+}
